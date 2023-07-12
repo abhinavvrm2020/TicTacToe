@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:wght@900&display=swap');
+
+body {
+    background-color: antiquewhite;
+}
+
+#div1 {
+    margin-left: 180px;
+    margin-top: 80px;
+    width: 120px;
+    height: 30px;
+}
+
+:root {
+    --main-bg : #1e272e;
+    --main-color : #0097e6;
+}
+
+#in2 {
+    position: absolute;
+    top: 10px;
+    right: 45%;
+}
+
+#h1 {
+    text-align: center;
+}
+
+#btn1 {
+    border: none;
+    padding: 0.8rem 1.8rem;
+    font-size: 1.4rem;
+    border-radius: 2rem;
+    text-transform: uppercase;
+    box-shadow: 0 8px 6px -6px #000;
+    margin-top: 350px;
+    margin-left: -180px;
+    outline: none;
+    position: absolute;
+    top: 200px;
+}
+
+#btn2 {
+    border: none;
+    padding: 0.8rem 1.8rem;
+    font-size: 1.4rem;
+    border-radius: 2rem;
+    text-transform: uppercase;
+    box-shadow: 0 8px 6px -6px #000;
+    outline: none;
+    margin-top: 30px;
+    margin-left: -330px;
+    position: absolute;
+    top: 520px;
+}
+
+#btn1:hover {
+    box-shadow: 0px 8px 6px -6px var(--main-color);
+    cursor: pointer;
+}
+
+#btn2:hover {
+    box-shadow: 0px 8px 6px -6px var(--main-color);
+    cursor: pointer;
+}   
+
+#mn_div1 {
+    margin-left: 210px;
+}
+
+#mn_div2 {
+    margin-left: -190px;
+}
+
+#mn_div3 {
+    margin-left: -190px;
+}
+
+#mn_div4 {
+    margin-left: 15px;
+}
